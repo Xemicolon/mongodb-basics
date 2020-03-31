@@ -4,4 +4,4 @@
 
 ![Database collection](https://res.cloudinary.com/tobilite/image/upload/v1585621173/Mongodb-basics/database%20collection.jpg)
 
-![mongo and mongod](https://res.cloudinary.com/tobilite/image/upload/v1585622754/Mongodb-basics/mongo_mongod.jpg)
+![Mongo screenshot](https://res.cloudinary.com/tobilite/image/upload/v1585622754/Mongodb-basics/mongo_mongod.jpg)
