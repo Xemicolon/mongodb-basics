@@ -7,7 +7,7 @@ MongoClient.connect(
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err, db) => {
     if (err) throw err;
-    console.log(`Databse created by ${db_name}`);
+    console.log(`Database created by ${db_name}`);
     db.close();
   }
 );
