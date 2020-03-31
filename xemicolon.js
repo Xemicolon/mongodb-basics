@@ -1,6 +1,6 @@
-const MongoClient = require("mongodb").MongoClient;
-const db_name = "XemiColon";
-const url = "mongodb://localhost:27017/" + db_name;
+const MongoClient = require("mongodb").MongoClient,
+  db_name = "XemiColon",
+  url = "mongodb://localhost:27017/" + db_name;
 
 MongoClient.connect(
   url,

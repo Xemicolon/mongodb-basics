@@ -10,7 +10,6 @@ MongoClient.connect(
     mydb.createCollection("interns", (err, interns) => {
       if (err) throw err;
       console.log("Interns collection created");
-      console.log(interns);
       db.close();
     });
   }
