@@ -1,6 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://localhost:27017/xemicolon";
 const db_name = "XemiColon";
+const url = "mongodb://localhost:27017/" + db_name;
 
 MongoClient.connect(
   url,
