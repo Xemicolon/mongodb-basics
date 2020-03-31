@@ -6,10 +6,11 @@ MongoClient.connect(
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err, db) => {
     if (err) throw err;
-    // var mydb = db.db("mydb");
-    db.createCollection("interns", (err, mydb) => {
+    var mydb = db.db("mydb");
+    mydb.createCollection("interns", (err, interns) => {
       if (err) throw err;
       console.log("Interns collection created");
+      console.log(interns);
       db.close();
     });
   }
