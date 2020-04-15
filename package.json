@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-basics",
+  "version": "1.0.0",
+  "description": "![mongo.exe and mongod.exe](https://res.cloudinary.com/tobilite/image/upload/v1585623465/Mongodb-basics/mongo.exe%20and%20mongod.exe.jpg)",
+  "main": "findInterns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xemicolon/mongodb-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xemicolon/mongodb-basics/issues"
+  },
+  "homepage": "https://github.com/Xemicolon/mongodb-basics#readme",
+  "dependencies": {
+    "mongodb": "^3.5.6"
+  }
+}
